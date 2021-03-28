@@ -1,6 +1,9 @@
 # Sensor Fusion Self-Driving Car Course
 
 
+https://user-images.githubusercontent.com/25008320/112751515-ca008a00-8fce-11eb-8de3-01df05ff21b8.mp4
+
+
 
 ### Welcome to the Sensor Fusion course for self-driving cars.
 
