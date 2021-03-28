@@ -5,7 +5,7 @@ Step 1.
 Voxel grid filtering is created to filter the cloud by only leaving a single point per voxel cube to lower the resolution of the point cloud.
 Then,  a boxed region is defined to extract the region of interest. Filter point cloud on the roof of host vehicle.
 
-Step 2. Segment the filtered cloud into two parts, road and obstacles with both PCL functions and self-built RANSAC.
+Step 2. Segment the filtered cloud into two parts, road and obstacles. Use both PCL functions and self-built RANSAC.
 
 Step 3. Cluster the obstacle cloud with euclidean clustering algorithms, construct KDTree, search K-NN points.
 
