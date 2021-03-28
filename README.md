@@ -1,8 +1,20 @@
-# Sensor Fusion Self-Driving Car Course
+# Lidar Obstacle Detection
 
+## Details
+Step 1.
+Voxel grid filtering is created to filter the cloud by only leaving a single point per voxel cube to lower the resolution of the point cloud.
+Then,  a boxed region is defined to extract the region of interest. Filter point cloud on the roof of host vehicle.
 
-https://user-images.githubusercontent.com/25008320/112751515-ca008a00-8fce-11eb-8de3-01df05ff21b8.mp4
+Step 2. Segment the filtered cloud into two parts, road and obstacles with both PCL functions and self-built RANSAC.
 
+Step 3. Cluster the obstacle cloud with euclidean clustering algorithms, construct KDTree, search K-NN points.
+
+Step 4. Find bounding boxes for the clusters.
+
+Step 5. Use the same processing pipeline on multiple pcd files to generate stream video.
+
+## Result Video
+![lidar](https://user-images.githubusercontent.com/25008320/112752501-aee44900-8fd3-11eb-9ab6-04e29cce6ab8.gif)
 
 
 ### Welcome to the Sensor Fusion course for self-driving cars.
