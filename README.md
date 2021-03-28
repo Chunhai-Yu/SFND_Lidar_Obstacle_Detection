@@ -1,6 +1,6 @@
 # Lidar Obstacle Detection
 
-## Details
+## Summary
 Step 1.
 Voxel grid filtering is created to filter the cloud by only leaving a single point per voxel cube to lower the resolution of the point cloud.
 Then,  a boxed region is defined to extract the region of interest. Filter point cloud on the roof of host vehicle.
